@@ -1,0 +1,36 @@
+.AdminPageContainer {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    grid-template-rows: 70px 1fr;
+    grid-template-areas: 
+        'logo container'
+        'nav container';
+    gap: 15px 15px;
+    height: 100vh;
+}
+
+
+
+.contentContainer{
+    grid-area: "container";
+}
+
+/* Logo */
+.logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+
+}
+  
+.logo p{
+    background: var(--navColor);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.7rem;
+    color: red;
+}

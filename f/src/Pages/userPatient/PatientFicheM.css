@@ -1,0 +1,44 @@
+.patientPageContainer .contentFicheList .sectionEntete {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+.patientPageContainer .contentFicheList .pdp{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: rgba(180, 180, 180, 0.404);
+}
+
+.patientPageContainer .contentFicheList .ContainerOfFicheM{
+    width: 100%;
+    height: 50vh;
+    padding: 10px 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.patientPageContainer .ContainerOfFicheM .gaucheContainer{
+    width: 220px;
+    height: 350px;
+}
+.patientPageContainer  .gaucheContainer ul{
+    list-style: none;
+}
+.patientPageContainer  .gaucheContainer li{
+    margin-bottom: 10px;
+}
+.patientPageContainer  .gaucheContainer a{
+    color: var(--noirbe);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.patientPageContainer  .gaucheContainer a.active{
+    color: var(--blueThem);
+}
+.patientPageContainer .ContainerOfFicheM .droiteContainer{
+    width: 800px;
+    height: 400px;
+}

@@ -1,0 +1,113 @@
+:root{
+    --color1: #1137b1;
+    --color2: #e0f1ff;
+    --navColor: #c7fceb;
+    --color4: #6bbaa3;
+    --color5: #5dbfc9;
+    --color6: #e5a4ae;
+    --color7: #2c2b2cac;
+    --titrekely: #6ac1c9;
+    --shadow: #dfe2df;
+    --dimProfile: 45px;
+    --dimHovering: 60px;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navT{
+    grid-area: nav;
+    background: var(--navColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-radius: 30px;
+    margin-left: 8px;
+    width: 65px;
+    height: 80vh;
+    margin-top: 10px;
+}
+
+.navT ul li{
+    z-index: 3;
+}
+  
+.navT ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 65%;
+}
+  
+.navT a{
+    color: #2c2b2c;
+    font-size: 1.2rem;
+}
+  
+.navT .ambany{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 25%;
+}
+  
+.navT .ambany p{
+    background: url(../assets/img/user.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: var(--dimProfile);
+    height: var(--dimProfile);
+    border-radius: 50%;
+}
+
+.navT .Active{
+    z-index: 3;
+    /* transform: translateX(40%); */
+    border-radius: 50%;
+    min-width: var(--dimHovering);
+    min-height: var(--dimHovering);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--navColor);
+    transform: translateX(10px);
+}
+
+.navT .Active > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.logo{
+    grid-area: logo;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+  
+.logo > p{
+    background: var(--color3);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.7rem;
+    color: red;
+}

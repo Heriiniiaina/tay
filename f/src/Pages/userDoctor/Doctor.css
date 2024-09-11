@@ -1,0 +1,21 @@
+.DoctorPageContainer {
+    display: flex;
+    width: 100%;
+}
+
+.DoctorPageContainer .navBarContainer {
+    height: 100vh;
+    position: fixed;
+}
+
+.DoctorPageContainer .contentContainer {
+    width: 100%;
+    height: 70px;
+
+    /* navBar width */
+    padding: 0 0 0 70px;
+}
+
+th{
+    color: #5dbfc9;
+}
